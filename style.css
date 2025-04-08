@@ -1,0 +1,116 @@
+body {
+    background-image: url("seamless-pattern-game-tic-tac-260nw-709731865.webp");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.game {
+    width: 30vw;
+    height: 30vw;
+    position: absolute;
+    left: 186px;
+    top: 149px;
+    display: grid;
+    grid-template-rows: repeat(3, 10vw);
+    grid-template-columns: repeat(3, 10vw);
+}
+
+.box {
+    border: 3px solid white;
+    text-align: center;
+    font-style: oblique;
+    font-size: xxx-large;
+    font-weight: 1000;
+    color: yellowgreen;
+}
+
+.text {
+    color: blue;
+}
+
+
+.br {
+    border-right: 0;
+}
+
+.bl {
+    border-left: 0;
+}
+
+.bt {
+    border-top: 0;
+}
+
+.bb {
+    border-bottom: 0;
+}
+
+.container {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    column-gap: 70px; 
+    justify-content: space-between; 
+}
+
+
+.info {
+    position: absolute;
+    left: 596px;
+    top: 146px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    margin-left: 72px;
+    margin-top: 73px;
+}
+.text{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+
+}
+.winner{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+  font-weight: 700;
+  color: white;
+}
+.reset {
+    background-color: black;
+    color: rgb(225, 166, 235);
+    border: 1px solid rgb(137, 216, 243);
+    border-radius: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+.reset:hover {
+    box-shadow: 0px 0.2px 8px white; 
+    background-color: rgb(50, 50, 50); 
+    transition: 0.3s ease-in-out;
+}
+
+.gif{
+    .img {
+        display: none; 
+        width: 200px;  
+        transition: width 2s ease-in-out;
+    }
+    
+}
+.heading h1, .heading h6 {
+    color: white !important;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+}
+ .heading h6 {
+    text-shadow: 2px 2px 5px black;
+    font-size: large;
+}
